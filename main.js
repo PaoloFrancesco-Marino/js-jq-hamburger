@@ -9,14 +9,16 @@ var hamburgerMenu_ClickOpen = $('.header-right > a'); //link all'icona hamburger
 var hamburgerMenu_ClickClose = $('.hamburger-menu > a'); //link all'icona close per chiudere
 
 
-// // con il metodo hide and show 
+// con il metodo hide and show 
 
 // hamburgerMenu_ClickOpen.click( function(){
 //     hamburgerMenu.show();
+//     console.log('Click Open');
 // });
 
 // hamburgerMenu_ClickClose.click( function(){
 //     hamburgerMenu.hide();
+//     console.log('Click Close');
 // });
 
 
@@ -24,19 +26,25 @@ var hamburgerMenu_ClickClose = $('.hamburger-menu > a'); //link all'icona close 
 
 hamburgerMenu_ClickOpen.click( function(){
     hamburgerMenu.fadeIn();
+    console.log('Click Open');
+    
 });
 
 hamburgerMenu_ClickClose.click( function(){
     hamburgerMenu.fadeOut();
+    console.log('Click Close');
+    
 });
 
 
-// // con la classe css hamburger-menu.active
+// con la classe css hamburger-menu.active
 
 // hamburgerMenu_ClickOpen.click( function(){
 //     hamburgerMenu.addClass('active');
+//     console.log('Click Open');
 // });
 
 // hamburgerMenu_ClickClose.click( function(){
 //     hamburgerMenu.removeClass('active');
+//     console.log('Click Close');
 // });
